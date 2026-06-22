@@ -32,7 +32,9 @@ const server = http.createServer((req,res)=>{
         }
         return res.writeHead(404).end(`Page Note Found!`);
     }
-});
+});   
+
+
 
 server.listen(8000,()=>{
     console.log(`Server is running at port 8000`)
